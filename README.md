@@ -1,3 +1,4 @@
+```json
 {
   "mcpServers": {
     "desktopcommander": {
@@ -54,4 +55,18 @@
       "command": "node",
       "args": ["<PATH_TO_FOLDER_HERE>\\DesktopCommanderMCP\\dist\\index.js"]
     },
-    "mcp-
+    "mcp-installer": {
+      "command": "npx",
+      "args": ["@anaisbetts/mcp-installer"]
+    },
+    "context7-mcp": {
+      "command": "npx", 
+      "args": ["@upstash/context7-mcp"]
+    },
+    "server-github": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-github"]
+    }
+  }
+}
+```
